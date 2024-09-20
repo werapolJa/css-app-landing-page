@@ -1,3 +1,40 @@
 * {
   box-sizing: border-box;
 }
+
+.feature-card {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background-color: aqua;
+  width: 380px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.feat-stram {
+  background-color: #a594f9;
+}
+
+.feat-blazing {
+  background-color: #c68fe6;
+}
+
+.feat-intuitive {
+  background-color: #6c48c5;
+}
+.emo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  width: 70px;
+  height: 70px;
+  font-size: 40px;
+  margin: 0;
+  border-radius: 20px;
+}
