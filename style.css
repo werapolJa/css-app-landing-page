@@ -3,38 +3,45 @@
 }
 
 .feature-card {
-  margin: 50px;
-  display: flex;
-  justify-content: center;
+  width: Hug (1, 201px) px;
+  height: Hug (272px) px;
   gap: 20px;
+  opacity: 0px;
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
 }
 .card {
-  background-color: aqua;
-  width: 380px;
-  padding: 20px;
-  border-radius: 10px;
-  color: white;
+  width: 387px;
+  padding: 28px;
+
+  border-radius: 24px;
 }
 
 .feat-stram {
-  background-color: #a594f9;
+  background: #d7e5f6;
 }
 
 .feat-blazing {
-  background-color: #c68fe6;
+  background: #d8e0fc;
 }
 
 .feat-intuitive {
-  background-color: #6c48c5;
+  background: #e8dcf6;
 }
 .emo {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: aliceblue;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   font-size: 40px;
   margin: 0;
-  border-radius: 20px;
+  border-radius: 15px;
+}
+.card h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0px;
 }
