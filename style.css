@@ -1,3 +1,47 @@
 * {
   box-sizing: border-box;
 }
+
+.feature-card {
+  width: Hug (1, 201px) px;
+  height: Hug (272px) px;
+  gap: 20px;
+  opacity: 0px;
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+}
+.card {
+  width: 387px;
+  padding: 28px;
+
+  border-radius: 24px;
+}
+
+.feat-stram {
+  background: #d7e5f6;
+}
+
+.feat-blazing {
+  background: #d8e0fc;
+}
+
+.feat-intuitive {
+  background: #e8dcf6;
+}
+.emo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  margin: 0;
+  border-radius: 15px;
+}
+.card h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
